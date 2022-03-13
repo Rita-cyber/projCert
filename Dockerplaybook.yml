@@ -20,3 +20,6 @@
       - curl
       - software-properties-common
       - docker.io
+      
+   - name: deploy application
+     command : sudo docker run -itd -p 8086:8080 ritauzoka123/website:1.0 
